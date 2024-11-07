@@ -1,3 +1,3 @@
 "use strict";
-const test = " I am testing file";
+const test = " I am testing";
 console.log(test);

@@ -1,2 +1,2 @@
-const test : String = " I am testing file";
+const test : String = " I am testing";
 console.log(test);
