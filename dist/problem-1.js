@@ -1,4 +1,10 @@
 "use strict";
-const arr = [1, 2, 3, 4];
-// const newArray = arr.map(elem => elem*elem) // Normal JS function
-const newArray = arr.map((elem) => elem = elem); //TS array function
+const numbers = [1, 2, 3, 4, 5];
+const sumArray = (array) => {
+    let sum = 0;
+    array.forEach((element) => {
+        sum += element;
+    });
+    return sum;
+};
+console.log(sumArray(numbers));
